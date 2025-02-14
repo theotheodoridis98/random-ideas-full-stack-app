@@ -1,6 +1,10 @@
 const express = require('express');
-const port = 5000;
+require('dotenv').config();
+const port = process.env.PORT || 5000;
 const app = express();
+const connectDB = require('./config/db');
+
+connectDB();
 
 /** 
 .use() method is used to mount the specified middleware function(s) at the path which is being specified.
