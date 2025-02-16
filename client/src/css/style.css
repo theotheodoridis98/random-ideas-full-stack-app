@@ -43,7 +43,7 @@ header {
   margin: 10% auto;
   width: 600px;
 
-  background-color: steelblue;
+  background-color: rgb(15, 14, 44);
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -82,7 +82,7 @@ form label {
 }
 
 .btn {
-  background-color: #333;
+  background-color: steelblue;
   color: #fff;
   border: none;
   padding: 10px;
